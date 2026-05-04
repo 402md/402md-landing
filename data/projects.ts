@@ -4,7 +4,7 @@ export interface Project {
   description: string;
   technologies: string[];
   url: string;
-  status: 'live' | 'building' | 'planned';
+  status: 'live' | 'building' | 'planned' | 'testnet';
 }
 
 export const projects: Project[] = [
@@ -14,8 +14,8 @@ export const projects: Project[] = [
     description:
       'Cross-chain x402 facilitator. Lets sellers accept USDC across multiple networks without configuring a wallet for each one. Currently supports Stellar, Base, and Solana.',
     technologies: ['x402', 'Cross-chain', 'USDC'],
-    url: 'https://github.com/402md/facilitator',
-    status: 'building',
+    url: 'https://facilitator.402.md/',
+    status: 'testnet',
   },
   {
     slug: 'agentcard',
@@ -33,6 +33,15 @@ export const projects: Project[] = [
       'Wallet for Stellar and EVM (Base). Connect Claude Desktop to the x402 protocol and consume paid endpoints directly from your AI assistant.',
     technologies: ['Stellar', 'EVM', 'x402', 'MCP'],
     url: 'https://wallet.402.md/',
+    status: 'live',
+  },
+  {
+    slug: 'nonap',
+    name: 'NoNap',
+    description:
+      'Lightweight macOS menu bar app to keep your Mac awake. Toggle indefinite, 15/30-minute, or 1-hour sessions, with optional display-wake. Built in Swift on top of IOKit power assertions.',
+    technologies: ['Swift', 'macOS', 'IOKit'],
+    url: 'https://github.com/breim/nonap',
     status: 'live',
   },
 ];

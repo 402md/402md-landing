@@ -5,6 +5,7 @@ function StatusIndicator({ status }: { status: string }) {
     live: 'Live',
     building: 'Building',
     planned: 'Planned',
+    testnet: 'Testnet',
   };
   return (
     <span className={`status status--${status}`}>

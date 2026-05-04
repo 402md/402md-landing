@@ -12,6 +12,7 @@
 
   --success: oklch(45% 0.13 155);
   --building: oklch(58% 0.14 70);
+  --testnet: oklch(50% 0.14 250);
 
   --rule: oklch(88% 0.006 85);
 
@@ -358,6 +359,10 @@ a {
   color: var(--success);
 }
 
+.status--testnet {
+  color: var(--testnet);
+}
+
 .status-dot {
   width: 6px;
   height: 6px;
@@ -375,6 +380,10 @@ a {
 
 .status--live .status-dot {
   background: var(--success);
+}
+
+.status--testnet .status-dot {
+  background: var(--testnet);
 }
 
 .project-desc {
