@@ -110,7 +110,12 @@ export default function Home() {
                 <div className="project-top">
                   <h3 className="project-name">
                     {project.url ? (
-                      <a href={project.url} className="project-link">
+                      <a
+                        href={project.url}
+                        className="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {project.name}
                         <span className="project-arrow" aria-hidden="true">
                           →
