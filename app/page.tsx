@@ -1,4 +1,6 @@
 import { projects } from '@/data/projects';
+import { Nav } from '@/components/Nav';
+import { Footer } from '@/components/Footer';
 
 function StatusIndicator({ status }: { status: string }) {
   const labels: Record<string, string> = {
@@ -19,30 +21,25 @@ export default function Home() {
   return (
     <main>
       <div className="container">
-        <nav
-          className="nav anim-reveal"
-          style={{ '--i': 0 } as React.CSSProperties}
-        >
-          <span className="nav-brand">
-            402<span className="brand-dot">.</span>md
-          </span>
-        </nav>
+        <Nav />
 
         <header className="hero">
           <h1
             className="hero-title anim-reveal"
             style={{ '--i': 1 } as React.CSSProperties}
           >
-            <span className="hero-line">Payment infrastructure</span>{' '}
-            <span className="hero-line">for the agentic web</span>
+            <span className="hero-line">Open-source infrastructure</span>{' '}
+            <span className="hero-line">
+              for the <span className="hero-accent">agentic web</span>
+            </span>
           </h1>
           <p
             className="hero-sub anim-reveal"
             style={{ '--i': 2 } as React.CSSProperties}
           >
-            I&rsquo;m Henrique Breim. I build open-source payment infrastructure
-            for agentic systems, web payments, and crypto. This is my hobby,
-            built in my free time. 402.md is where I publish everything.
+            I&rsquo;m Henrique Breim. I build open protocols and tools for how
+            AI agents transact and operate on the web. Payments are where it
+            started. 402.md is where I publish all of it.
           </p>
           <div
             className="hero-actions anim-reveal"
@@ -191,15 +188,7 @@ export default function Home() {
           </div>
         </section>
 
-        <footer
-          className="footer anim-reveal"
-          style={{ '--i': 16 } as React.CSSProperties}
-        >
-          <span className="footer-brand">
-            402<span className="brand-dot">.</span>md
-          </span>
-          <span className="footer-author">Henrique Breim</span>
-        </footer>
+        <Footer index={16} />
       </div>
     </main>
   );
