@@ -17,7 +17,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: '402.md — Payment infrastructure for the agentic web',
+  title: '402.md: Payment infrastructure for the agentic web',
   description:
     'x402 is an open protocol for HTTP-native payments between AI agents and services. Micropayments, paywalls, and autonomous transactions.',
   openGraph: {
