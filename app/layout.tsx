@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { JetBrains_Mono } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import './globals.css';
 
 const mono = JetBrains_Mono({
@@ -53,6 +54,7 @@ export default function RootLayout({
         />
       </head>
       <body className={mono.variable}>{children}</body>
+      <GoogleAnalytics gaId="G-FC4W41BMJ3" />
     </html>
   );
 }
