@@ -9,6 +9,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: 'lustra',
+    name: 'Lustra',
+    description:
+      'Code quality and hygiene skill for AI coding agents. Runs real dev tooling (lint, type-check, tests, security and dependency scans), then triages the results with judgment, catching defects basic linters miss across JavaScript, TypeScript, Python, Go, and Rust.',
+    technologies: ['AI Agents', 'Code Quality', 'Polyglot'],
+    url: 'https://lustra.sh/',
+    status: 'live',
+  },
+  {
     slug: 'facilitator',
     name: 'Facilitator',
     description:

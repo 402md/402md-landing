@@ -34,7 +34,7 @@ Allow: /
 User-agent: Claude-SearchBot
 Allow: /
 
-# AI training crawlers — site is open-source and public, but opt out of training
+# AI training crawlers: site is open-source and public, but opt out of training
 User-agent: GPTBot
 Disallow: /
 
