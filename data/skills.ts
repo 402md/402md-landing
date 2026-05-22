@@ -4,7 +4,7 @@ export interface Skill {
   url: string;
 }
 
-// Agent skills I keep reaching for. Lustra and Speclock are mine; the rest are not.
+// Agent skills I keep reaching for. Lustra, Speclock, and Great Ideas are mine; the rest are not.
 export const skills: Skill[] = [
   {
     name: 'Lustra',
@@ -15,6 +15,11 @@ export const skills: Skill[] = [
     name: 'Speclock',
     note: 'Mine. My CLAUDE.md: a spec-locked workflow I run Claude with.',
     url: 'https://github.com/breim/speclock-claude-md',
+  },
+  {
+    name: 'Great Ideas',
+    note: 'Mine. Mines 7-day web signals (PH, Reddit, HN) and ranks build opportunities S/A/B/C — every idea backed by a dated URL.',
+    url: 'https://github.com/breim/great-ideas',
   },
   {
     name: 'Council',
