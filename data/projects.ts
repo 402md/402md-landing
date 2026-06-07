@@ -9,6 +9,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: 'mrrsave',
+    name: 'MRR Save',
+    description:
+      'Retention platform that intercepts subscription cancellations and saves them with AI-powered conversations and targeted offers. Drops in with a single script tag, applies accepted offers straight to Stripe, and tracks save rates, recovered MRR, and churn reasons.',
+    technologies: ['SaaS', 'Stripe', 'AI', 'Retention'],
+    url: 'https://mrrsave.com/',
+    status: 'live',
+  },
+  {
     slug: 'lustra',
     name: 'Lustra',
     description:
