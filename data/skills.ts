@@ -76,4 +76,9 @@ export const skills: Skill[] = [
     note: 'Marketing copy that persuades instead of filling space.',
     url: 'https://www.skills.sh/coreyhaines31/marketingskills/copywriting',
   },
+  {
+    name: 'User Research',
+    note: 'Structures user interviews and synthesizes findings into actionable insights.',
+    url: 'https://www.skills.sh/cookiy-ai/user-research-skill/user-research-cookiy',
+  },
 ];
