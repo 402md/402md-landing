@@ -9,6 +9,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: 'loop-harness',
+    name: 'Loop Harness',
+    description:
+      'Claude Code plugin for building automated engineering loops: systems that find work, hand it to a coding agent, verify the result against a goal, and decide the next move without a human prompting each step. Ships skills to qualify, scaffold, and review loops, plus an independent maker/checker verifier agent.',
+    technologies: ['Claude Code', 'AI Agents', 'Automation'],
+    url: 'https://github.com/breim/loop-harness',
+    status: 'live',
+  },
+  {
     slug: 'mrrsave',
     name: 'MRR Save',
     description:
