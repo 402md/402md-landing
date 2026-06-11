@@ -10,6 +10,7 @@ export function Footer({ index = 0 }: { index?: number }) {
       <span className="footer-brand">
         402<span className="brand-dot">.</span>md
       </span>
+      <span className="footer-company">Clappen Consultoria LTDA</span>
       <div className="footer-social">
         <a
           href={LINKEDIN}

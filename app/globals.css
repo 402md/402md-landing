@@ -622,6 +622,10 @@ a {
   font-weight: 700;
 }
 
+.footer-company {
+  color: var(--text-tertiary);
+}
+
 
 .footer-social {
   margin-left: auto;
