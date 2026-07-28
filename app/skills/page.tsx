@@ -6,7 +6,7 @@ import { skills } from '@/data/skills';
 export const metadata: Metadata = {
   title: '402.md: Skills I like',
   description:
-    'Open-source agent skills I keep reaching for. Lustra is mine; the rest just changed how I work.',
+    'The agent skills I actually run, not a list I collected. Lustra, Speclock, and Great Ideas are mine. The rest changed how I work.',
 };
 
 export default function SkillsPage() {
@@ -20,7 +20,7 @@ export default function SkillsPage() {
             className="label anim-reveal"
             style={{ '--i': 1 } as React.CSSProperties}
           >
-            Skills I like
+            Skills
           </span>
           <h1
             className="skills-title anim-reveal"
@@ -32,8 +32,8 @@ export default function SkillsPage() {
             className="skills-intro anim-reveal"
             style={{ '--i': 3 } as React.CSSProperties}
           >
-            Open-source agent skills I keep reaching for. Lustra is mine; the
-            rest just changed how I work.
+            The ones I actually run, not a list I collected. Lustra, Speclock,
+            and Great Ideas are mine. The rest changed how I work.
           </p>
         </header>
 

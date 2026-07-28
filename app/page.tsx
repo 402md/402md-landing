@@ -37,9 +37,9 @@ export default function Home() {
             className="hero-sub anim-reveal"
             style={{ '--i': 2 } as React.CSSProperties}
           >
-            I&rsquo;m Henrique Breim. I build open protocols and tools for how
-            AI agents transact and operate on the web. Payments are where it
-            started. 402.md is where I publish all of it.
+            I&rsquo;m Henrique Breim. I build the open protocols and tools AI
+            agents need to pay for things and act without a human watching.
+            Payments came first. Everything else ends up here too.
           </p>
           <div
             className="hero-actions anim-reveal"
@@ -149,9 +149,9 @@ export default function Home() {
             style={{ '--i': 15 } as React.CSSProperties}
           >
             <p className="connect-text">
-              If this is your kind of rabbit hole, I&rsquo;d love to chat.
-              Whether you&rsquo;re building with agents, thinking about web
-              payments, or just curious about where this is all going.
+              If this is your kind of rabbit hole, I&rsquo;d love to chat. Send
+              me something you&rsquo;re building, or an argument about why
+              I&rsquo;ve got this wrong.
             </p>
             <div className="connect-links">
               <a

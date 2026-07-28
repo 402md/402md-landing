@@ -8,17 +8,17 @@ export interface Skill {
 export const skills: Skill[] = [
   {
     name: 'Lustra',
-    note: 'Mine. Code quality for AI agents: runs real dev tooling, then triages the noise with judgment.',
+    note: 'Mine. Runs the real tooling on your code (lint, types, tests, security), then sorts the output into what needs fixing and what to ignore.',
     url: 'https://lustra.sh/',
   },
   {
     name: 'Speclock',
-    note: 'Mine. My CLAUDE.md: a spec-locked workflow I run Claude with.',
+    note: 'Mine. The CLAUDE.md I hand Claude on every project. Spec first, code second.',
     url: 'https://github.com/breim/speclock-claude-md',
   },
   {
     name: 'Great Ideas',
-    note: 'Mine. Mines 7-day web signals (PH, Reddit, HN) and ranks build opportunities S/A/B/C — every idea backed by a dated URL.',
+    note: 'Mine. Reads the last 7 days of Product Hunt, Reddit, and HN, then ranks what is worth building from S to C. Every idea comes with a dated link.',
     url: 'https://github.com/breim/great-ideas',
   },
   {
@@ -33,7 +33,7 @@ export const skills: Skill[] = [
   },
   {
     name: 'Impeccable',
-    note: 'Frontend design with real taste. This site was built with it.',
+    note: 'Frontend design with actual taste. I built this site with it.',
     url: 'https://www.skills.sh/pbakaus/impeccable/impeccable',
   },
   {
@@ -68,17 +68,17 @@ export const skills: Skill[] = [
   },
   {
     name: 'TDD',
-    note: "Test-driven development the way it's meant to work.",
+    note: 'Makes the agent write the failing test before it writes the code.',
     url: 'https://www.skills.sh/mattpocock/skills/tdd',
   },
   {
     name: 'Copywriting',
-    note: 'Marketing copy that persuades instead of filling space.',
+    note: 'Headlines, CTAs, and page structure that sell instead of filling space.',
     url: 'https://www.skills.sh/coreyhaines31/marketingskills/copywriting',
   },
   {
     name: 'User Research',
-    note: 'Structures user interviews and synthesizes findings into actionable insights.',
+    note: 'Structures the interview, then turns the transcripts into findings you can act on.',
     url: 'https://www.skills.sh/cookiy-ai/user-research-skill/user-research-cookiy',
   },
 ];

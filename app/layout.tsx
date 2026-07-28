@@ -18,12 +18,12 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: '402.md: Payment infrastructure for the agentic web',
+  title: '402.md: Open-source infrastructure for the agentic web',
   description:
-    'x402 is an open protocol for HTTP-native payments between AI agents and services. Micropayments, paywalls, and autonomous transactions.',
+    'Open protocols and tools for AI agents that pay for things and act on their own. Built and published in the open by Henrique Breim. Payments came first, starting with x402.',
   openGraph: {
     title: '402.md',
-    description: 'Payment infrastructure for the agentic web.',
+    description: 'Open-source infrastructure for the agentic web.',
     type: 'website',
     url: 'https://402.md',
     siteName: '402.md',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: '402.md',
-    description: 'Payment infrastructure for the agentic web.',
+    description: 'Open-source infrastructure for the agentic web.',
   },
 };
 
