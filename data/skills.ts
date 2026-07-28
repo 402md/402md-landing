@@ -81,4 +81,9 @@ export const skills: Skill[] = [
     note: 'Structures the interview, then turns the transcripts into findings you can act on.',
     url: 'https://www.skills.sh/cookiy-ai/user-research-skill/user-research-cookiy',
   },
+  {
+    name: 'Unslop',
+    note: 'Finds the AI tells in writing and cuts them. I ran it over the copy on this site.',
+    url: 'https://www.skills.sh/cursor/plugins/unslop',
+  },
 ];
