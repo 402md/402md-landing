@@ -9,6 +9,24 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: 'agents-honestly',
+    name: 'Agents Honestly',
+    description:
+      'Free, open-source book on building agentic systems that hold up in production. 23 parts and 214 chapters, from the first LLM API call through retrieval, context management, tool design, durable execution, observability, and security. Written for backend engineers. No signup, no paywall.',
+    technologies: ['AI Agents', 'Production Systems', 'Open Source'],
+    url: 'https://agentshonestly.com/',
+    status: 'live',
+  },
+  {
+    slug: 'lang-on-rock',
+    name: 'Lang on Rock',
+    description:
+      'Document database for AI agents. Stores Open Knowledge Format bundles as a compiled index, so an agent asks for the section it needs instead of crawling Markdown or querying a vector store. One binary, embedded or over the network, with an MCP server for Claude Code and Cursor.',
+    technologies: ['Bun', 'MCP', 'AI Agents', 'Database'],
+    url: 'https://langonrock.com/',
+    status: 'live',
+  },
+  {
     slug: 'ccworklog',
     name: 'ccworklog',
     description:
